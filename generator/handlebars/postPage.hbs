@@ -1,0 +1,21 @@
+{{> header }}
+
+<div id = 'post-content'> 
+    
+    <h1>{{name}}</h1>
+    <div>
+        <a href = '/authors/{{author}}'> <p id = 'author'> Written by {{author}} on {{date}} </p> </a>
+        {{#if github}} 
+            <a href = '{{github}}'> <p id = 'github'> Project Source on GitHub </p> </a>
+        {{/if}}
+    </div>
+    <img id = 'full-img' src='/imgs/{{id}}.png'>
+
+    <div id = 'md'>
+        {{{html}}}
+    </div>
+    
+</div>
+
+{{> comments}}
+{{> footer}}

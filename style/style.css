@@ -1,0 +1,124 @@
+#heading {
+  margin-left: 15%;
+  width: 70%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+#heading img {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  margin-top: 20px;
+}
+#heading #links {
+  position: absolute;
+  top: 45px;
+  width: 20%;
+  margin-left: 50%;
+  display: table;
+  table-layout: fixed;
+}
+#heading #links div {
+  display: table-cell;
+}
+#heading #links div a {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#footer {
+  margin-left: 15%;
+  width: 70%;
+  padding: 100px;
+  width: calc(70% - 200px);
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px #f1f1f1;
+}
+
+#post-content {
+  margin-top: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  margin-bottom: 100px;
+}
+#post-content #full-img {
+  width: 100%;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px #686868;
+}
+#post-content div {
+  width: 100%;
+  height: 25px;
+}
+#post-content div a {
+  position: relative;
+}
+#post-content div a #author {
+  position: absolute;
+  left: 50px;
+  top: -50px;
+  margin: 0;
+  color: grey;
+}
+#post-content div a #github {
+  position: absolute;
+  right: 50px;
+  top: -50px;
+  margin: 0;
+  color: grey;
+}
+#post-content h1 {
+  padding: 50px;
+  width: calc(100% - 100px);
+  text-align: center;
+  font-size: 50px;
+}
+#post-content #md {
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px #f1f1f1;
+  padding: 50px;
+  width: calc(100% - 100px);
+}
+
+a {
+  width: 100%;
+  color: black;
+  text-decoration: inherit;
+  display: inline-block;
+}
+
+#content-block {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0px #f1f1f1;
+  height: 170px !important;
+  padding: 5px;
+}
+#content-block a > h2 {
+  margin-left: 20px;
+  font-size: 35px;
+  width: calc( 100% - 300px);
+}
+#content-block a > h3 {
+  position: absolute;
+  color: lightgray;
+  font-size: 15px;
+  top: 120px;
+  left: 25px;
+}
+#content-block a > img {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  height: 120px;
+}
+
+#replybox {
+  margin-bottom: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+}

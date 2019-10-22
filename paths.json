@@ -1,0 +1,21 @@
+{
+    "authorsJson": "./meta/authors.json",
+
+    "postsJson": "./meta/posts.json",
+    "postsFolder" : "./posts",
+    
+    "newPostTempalte" : "./templates/templatePost",
+
+    "HBSPost" : "./generator/handlebars/postPage.hbs",
+    "HBSComments" : "./generator/handlebars/comments.hbs",
+    "HBSHome" : "./generator/handlebars/home.hbs",
+    "HBSHeader" : "./generator/handlebars/header.hbs",
+    "HBSFooter" : "./generator/handlebars/footer.hbs",
+
+    "sassStyle" : "./style/style.scss",
+    "cssStyle" : "./style/style.css",
+
+    "indexPage" : "./pages/index.html"
+
+}
+

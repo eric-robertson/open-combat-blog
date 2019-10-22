@@ -1,0 +1,17 @@
+{{> header }}
+
+<div id = 'post-content'> 
+
+    <h1> Open Combat Development Blog </h1>
+    {{#each posts}}
+        <div id = 'content-block'>
+            <a href = '/posts/{{this.id}}'>
+                <h2> {{this.name}} </h2>
+                <h3> {{this.date}} </h3>
+                <img src = '/imgs/{{this.id}}.png'>
+            </a>
+        </div>
+    {{/each}}
+</div>
+
+{{> footer}}
